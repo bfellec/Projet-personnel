@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2? family= PT+Serif:wght@700 & display=swap');
+
+body{
+    
+    /* margin: 100px;  */
+    color: white;
+    font-family: Verdana;
+    font-style: italic;
+    /* min-height: 100vh; */
+    background-image: url(../images/fond\ page.jpg);
+    /* background-repeat: no-repeat; */
+}
+
+.box {
+    position: relative;
+    text-align: center;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  
+}
+
+.box img {
+    max-width: 100%;
+    height: 33rem;
+}
+
+.text-center{
+    text-align: center;
+    vertical-align: middle;
+    display: flex;justify-content: center;
+    align-items: center;
+}
+
+.imgage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.row{
+    position: relative;
+}
+
+.container{
+    margin: auto;
+    vertical-align: middle;
+}
+
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    text-align: left; 
+    /*les tailles des polices doivent être en rem*/
+    font-size: 2,5 rem;
+    text-shadow: 9px 6px 17px #00000075;
+    font-family : 'PT Serif', serif ;
+}
+h3{
+    color: white;
+}
+
+
+
+p {
+    color: white;
+}
+
+
+@media (max-width: 900px) {
+    .femme-des-cavernes img{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+
